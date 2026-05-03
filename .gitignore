@@ -1,0 +1,10 @@
+# Hugo build output
+public/
+resources/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/

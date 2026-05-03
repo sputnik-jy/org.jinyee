@@ -1,0 +1,53 @@
+baseURL = "https://jinyee.org/"
+languageCode = "en-us"
+title = "JinYee"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  author = "JinYee"
+  description = "All about sciences, tech and music"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.schema]
+    publisherType = "Person"  # tells Google this is a personal site not an org
+
+[params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Electrical and electronics graduate. Currently writing program to earn a living. My goal is to be capable and saved enough until one day I can become a paid open source contributer or start a robotics company."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/sputnik-jy"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:jinyee97@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]   # JSON enables PaperMod's search feature
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
