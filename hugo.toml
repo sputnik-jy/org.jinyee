@@ -14,6 +14,7 @@ canonifyURLs = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  favicon = "favicon.png"
 
   [params.schema]
     publisherType = "Person"  # tells Google this is a personal site not an org
