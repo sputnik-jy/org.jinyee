@@ -2,7 +2,7 @@
 title: "The First Vibe Coder"
 slug: "first-vibe-coder"
 date: 2026-05-07T15:54:53+08:00
-draft: true
+draft: false 
 summary: "Maybe The First Vibe Coder in the World"
 tags: ["software"]
 showReadingTime: true
