@@ -1,0 +1,4 @@
+<figure style="float: {{ .Get "float" | default "none" }};margin: {{ .Get "margin" | default "1rem" }}; display: block; max-width:300px;">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="margin: 0 auto; width: {{ .Get "width" | default "auto" }}; clear: {{ .Get "clear"}};" >
+    <figcaption style="margin: 0 auto; text-align:center; width: 90%">{{ .Get "caption" | safeHTML }}</figcaption>
+</figure>
