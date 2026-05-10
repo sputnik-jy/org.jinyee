@@ -28,7 +28,7 @@ I'm so torn apart by these diverged opinions after hours of reading, I decided t
 
 ## I think the first "Vibe Coder"
 
-For those who doesn't know who's Michael Stonebraker, his creation is probably everywhere in our modern society and we don't even realise we're using it. According to the (ACM website)(https://amturing.acm.org/award_winners/stonebraker_1172121.cfm), he's the man behind the modern database system - _Postgres_. If you're a software developer of some sort, you probably already using it in your work or is going to use it soon.
+For those who doesn't know who's Michael Stonebraker, his creation is probably everywhere in our modern society and we don't even realise we're using it. According to the [ACM website](https://amturing.acm.org/award_winners/stonebraker_1172121.cfm), he's the man behind the modern database system - _Postgres_. If you're a software developer of some sort, you probably already using it in your work or is going to use it soon.
 
 The video mentioned, when developing Postgres in the UC Berkeley, he had never written a single code. He didn't need to code, instead he think. With his idea of making PostgreSQL an "extendable" database, allowing developers to add custom data types, functions, operators, and index methods without modifying core code, he leads a group of brilliant PhD students to help him out with the actual coding.
 
